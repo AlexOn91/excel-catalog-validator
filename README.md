@@ -46,7 +46,7 @@ The app allows users to upload Excel files, run multiple data integrity checks, 
 1. Clone this repository:
    ```bash
    git clone https://github.com/AlexOn91/excel-catalog-validator.git
-   cd excel-catalog-validator ```
+   cd excel-catalog-validator
 3. Install dependencies:
     pip install -r requirements.txt
 4. Run the application:
