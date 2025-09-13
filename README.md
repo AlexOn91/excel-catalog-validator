@@ -20,6 +20,38 @@ The app allows users to upload Excel files, run multiple data integrity checks, 
 - **Performance**: tested with catalogs up to **65,000+ rows**.
 - **Packaged executable**: built with **PyInstaller** (Windows `.exe`).
 ---
+
+## 📂 Project Structure
+
+- **data/**
+  - `products_demo.xlsx` → Demo Excel file with fake product data
+- `downloadfailreport.py` → Fail report generator
+- `main.py` → Entry point / launcher
+- `offline_app.py` → Tkinter GUI
+- `validator.py` → Validation logic
+- `README.md` → Project documentation
+- `requirements.txt` → Dependencies
+- `LICENSE` → MIT License
+
+## 🛠 Tech Stack
+- Python 3.10+
+- Tkinter (GUI)
+- Pandas (data validation & processing)
+- NumPy (data handling, array operations)
+- OpenPyXL (Excel file integration)
+- PyInstaller (packaging into Windows executable)
+
+## 🚀 How to Run 
+1. Clone this repository:
+bash
+   git clone https://github.com/AlexOn91/excel-catalog-validator.git
+   cd excel-catalog-validator
+
+2. Install dependencies:
+    pip install -r requirements.txt
+3. Run the application:
+    python main.py
+
 ## 🔍 Demo & Executable
 ## 📸 Screenshots
 
@@ -51,23 +83,3 @@ Below is a full demo flow of the Excel Catalog Validator:
    Each error includes explanations and **cell references** for quick navigation.  
    Example: HTML tag found in a product name.  
    ![Fail Report](docs/screenshots/fail_report.png)
-
-## 📂 Project Structure
-
-- **data/**
-  - `products_demo.xlsx` → Demo Excel file with fake product data
-- `downloadfailreport.py` → Fail report generator
-- `main.py` → Entry point / launcher
-- `offline_app.py` → Tkinter GUI
-- `validator.py` → Validation logic
-- `README.md` → Project documentation
-- `requirements.txt` → Dependencies
-- `LICENSE` → MIT License
-
-## 🛠 Tech Stack
-- Python 3.10+
-- Tkinter (GUI)
-- Pandas (data validation & processing)
-- NumPy (data handling, array operations)
-- OpenPyXL (Excel file integration)
-- PyInstaller (packaging into Windows executable)
