@@ -53,16 +53,16 @@ Below is a full demo flow of the Excel Catalog Validator:
    ![Fail Report](docs/screenshots/fail_report.png)
 
 ## 📂 Project Structure
-excel-catalog-validator/
-│── data/
-│ └── products_demo.xlsx # Demo Excel file with fake product data
-│── downloadfailreport.py # Fail report generator
-│── main.py # Entry point / launcher
-│── offline_app.py # Tkinter GUI
-│── validator.py # Validation logic
-│── README.md # Project documentation
-│── requirements.txt # Dependencies
-│── LICENSE # MIT License
+
+- **data/**
+  - `products_demo.xlsx` → Demo Excel file with fake product data
+- `downloadfailreport.py` → Fail report generator
+- `main.py` → Entry point / launcher
+- `offline_app.py` → Tkinter GUI
+- `validator.py` → Validation logic
+- `README.md` → Project documentation
+- `requirements.txt` → Dependencies
+- `LICENSE` → MIT License
 
 ## 🛠 Tech Stack
 - Python 3.10+
