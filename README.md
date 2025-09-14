@@ -2,7 +2,7 @@
 
 A complete desktop application for validating Excel product catalogs, built in **Python** with **Tkinter**, **Pandas**, and **OpenPyXL**.  
 The app allows users to upload Excel files, run multiple data integrity checks, and generate structured error reports.
-
+This project is for demonstration and learning purposes only. It does not include any proprietary code or client data from my employers.
 ---
 
 ## ✨ Features
