@@ -1,8 +1,9 @@
 # Excel Catalog Validator
 
-A complete desktop application for validating Excel product catalogs, built in **Python** with **Tkinter**, **Pandas**, and **OpenPyXL**.  
-The app allows users to upload Excel files, run multiple data integrity checks, and generate structured error reports.
+A complete desktop application for validating Excel product catalogs, built in **Python** with Tkinter, Pandas, and OpenPyXL.  
+The app allows users to **upload Excel files**, run multiple data integrity checks, and **generate structured error reports**.
 ---
+
 
 ## ✨ Features
 - **User Interface (Tkinter)** for file selection and sheet mapping.
