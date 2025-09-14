@@ -48,10 +48,10 @@ The app allows users to upload Excel files, run multiple data integrity checks, 
    git clone https://github.com/AlexOn91/excel-catalog-validator.git
    cd excel-catalog-validator
 3. Install dependencies:
-    pip install -r requirements.txt
+   pip install -r requirements.txt
 4. Run the application:
     python main.py
-    
+
 ## 📸 Screenshots
 
 Below is a full demo flow of the Excel Catalog Validator:
@@ -82,3 +82,10 @@ Below is a full demo flow of the Excel Catalog Validator:
    Each error includes explanations and **cell references** for quick navigation.  
    Example: HTML tag found in a product name.  
    ![Fail Report](docs/screenshots/fail_report.png)
+
+📦 Executable (for HR / non-technical users)
+
+The project also includes a packaged Windows executable (.exe) built with PyInstaller.
+⚠️ The .exe file is not uploaded here because GitHub does not allow files larger than 50 MB.
+
+👉 If you want to test the app directly without installing Python, I can provide the .exe version on request.
